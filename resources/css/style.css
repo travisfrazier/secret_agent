@@ -1,0 +1,227 @@
+/* General Styles */
+
+* {
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  color: white;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin: auto;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5rem;
+}
+
+footer {
+  background-color: black;
+  padding: 5rem;
+  margin-top: 4rem;
+}
+
+footer .container {
+  text-align: left;
+}
+/* Main Section Styles */
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.product {
+  width: 30%;
+}
+
+.product span {
+  background-color: black;
+  display: block;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.product-image {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  padding: 7rem 0;
+  max-width: 100%;
+}
+
+.product-image img {
+  max-width: 10rem;
+}
+
+
+
+/* Class Styles */
+
+.main-banner {
+  height: 25rem;
+  background-size: cover;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  width: 960px;
+}
+
+.title-bar {
+  background-color: black;
+  color: white;
+  height: 2.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.title-bar img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.nav-bar {
+  background-color: firebrick;
+  height: 2.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: .5rem;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  width: 27rem;
+  padding: 2rem 4rem 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.headline h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.new-arrivals {
+    display: flex;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.digits {
+  color: black;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+  .product.glasses {
+      display: none;
+  }
+  .product {
+    width: 47%;
+  }
+  body {
+    font-size: 16px;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+  .main-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .product.glasses {
+    display: none;
+  }
+  .product.watch {
+    display: none;
+  }
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+  }
+  .info {
+    width: 90%;
+    margin: auto auto .5rem auto;
+  }
+  .information {
+    display: block;
+  }
+  .main-banner {
+    height: 17rem;
+  }
+  body {
+    font-size: 16px;
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+  .headline h4 {
+    font-size: .77rem;
+  }
+
+}
+
