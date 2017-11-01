@@ -188,7 +188,7 @@ footer .container {
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 751px) {
   .product.glasses {
     display: none;
   }
