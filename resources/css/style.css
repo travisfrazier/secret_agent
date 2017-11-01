@@ -244,6 +244,10 @@ footer .container {
     width: 90%;
     margin: auto auto .5rem auto;
   }
+
+  .info .title {
+    padding: 2.5rem;
+  }
   .information {
     display: block;
   }
@@ -251,7 +255,25 @@ footer .container {
     height: 50rem;
   }
   body {
-    font-size: 30px;
+    font-size: 35px;
+  }
+  * {
+    font-size: 35px;
+  }
+  .nav-bar {
+    height: 6rem;
+  }
+  body {
+    font
+  }
+  .headline h1 {
+    font-size: 2.75rem;
+  }
+  .headline h4 {
+    font-size: 1.75rem;
+  }
+  .headline {
+    width: 70%;
   }
 
 }
