@@ -226,11 +226,17 @@ footer .container {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  .product.glasses {
-    display: none;
+  
+  .products {
+    display: flex;
+    flex-direction: column;
   }
   .product.watch {
-    display: none;
+    margin-top: 1.25rem;
+  }
+  .product.glasses {
+    display: block;
+    margin-top: 1.25rem;
   }
   .product {
     width: 90%;
