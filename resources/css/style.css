@@ -188,7 +188,7 @@ footer .container {
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (max-width: 470px) {
   .product.glasses {
     display: none;
   }
@@ -225,3 +225,33 @@ footer .container {
 
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .product.glasses {
+    display: none;
+  }
+  .product.watch {
+    display: none;
+  }
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+  }
+  .info {
+    width: 90%;
+    margin: auto auto .5rem auto;
+  }
+  .information {
+    display: block;
+  }
+  .main-banner {
+    height: 30rem;
+  }
+  body {
+    font-size: 24px;
+  }
+
+}
